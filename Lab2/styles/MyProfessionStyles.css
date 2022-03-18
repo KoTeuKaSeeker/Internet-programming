@@ -1,0 +1,40 @@
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../Images/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    color: #fff;
+}
+
+.BlockProgrammist
+{
+    position: absolute;
+    right: 5vw;
+    margin-top: 1vw;
+}
+
+.LeftMarioTriangle
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+}
+
+.RightTextUnderProgrammist
+{
+    text-align:right;
+}
+
+.BlueTextHeader
+{
+    font-size: 2vw;
+}
+
+.DefaultText
+{
+    font-size:1.2vw;
+}
