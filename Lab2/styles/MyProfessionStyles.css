@@ -8,33 +8,103 @@ body
     color: #fff;
 }
 
-.BlockProgrammist
+html
 {
-    position: absolute;
-    right: 5vw;
-    margin-top: 1vw;
+    overflow:  hidden;
 }
 
-.LeftMarioTriangle
-{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    top: 0vw;
-    left: 0vw;
+@media (min-width: 800px) {
+    .BlockProgrammist
+    {
+        position: absolute;
+        right: 5vw;
+        margin-top: 1vw;
+    }
+
+    .LeftTriangle
+    {
+        position: absolute;
+        z-index: -1;
+        width: 150vw;
+        height: 100vw;
+        top: 0vw;
+        left: 0vw;
+    }
+
+    .RightTextUnderProgrammist
+    {
+        text-align:right;
+    }
+
+    .BlueTextHeader
+    {
+        font-size: 2vw;
+    }
+
+    .DefaultText
+    {
+        font-size:1.2vw;
+    }
 }
 
-.RightTextUnderProgrammist
-{
-    text-align:right;
-}
+@media (max-width: 800px) {
 
-.BlueTextHeader
-{
-    font-size: 2vw;
-}
+    .TextH4
+    {
+        color: white;
+        font-size: 2vw;
+        font-family: Bahnschrift;
+    }
 
-.DefaultText
-{
-    font-size:1.2vw;
+    .ActiveButton
+    {
+        border: 0.1vw solid gray;
+        width: 20vw;
+        height: 5vw;
+
+        background-color: rgb(0, 170, 192);
+        border-radius: 8vw;
+    }
+
+    .UnActiveButton
+    {
+        border: 0.1vw solid gray;
+        width: 20vw;
+        height: 5vw;
+
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 8vw;
+    }
+
+    .BlockProgrammist
+    {
+        position: absolute;
+        right: 5vw;
+        margin-top: 1vw;
+    }
+
+    .LeftTriangle
+    {
+        position: absolute;
+        z-index: -1;
+        width: 250vw;
+        height: 300vw;
+        top: 0vw;
+        left: 0vw;
+    }
+
+    .RightTextUnderProgrammist
+    {
+        text-align:right;
+    }
+
+    .BlueTextHeader
+    {
+        font-size: 4vw;
+    }
+
+    .DefaultText
+    {
+        font-size:2vw;
+    }
 }
