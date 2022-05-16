@@ -1,0 +1,126 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-image: url("../images/bgGame.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contentContainer
+{
+    flex-grow: 1;
+}
+
+.diffHeaderIcon
+{
+    height: 40px;
+}
+
+.diffHeaderIconMargin
+{
+    margin: 0 10px 0 10px;
+}
+
+.diffHeaderText
+{
+    color: white;
+    font-size: 30px;
+}
+
+.diffHeaderContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px 0 15px 0;
+    width: 100%;
+}
+
+.diffImageContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.diffImage
+{
+    width: 700px;
+    border-radius: 20px;
+}
+
+@media(max-width: 712px)
+{
+    .diffImage
+    {
+        width: 95%;
+        border-radius: 20px;
+        margin: 0 5% 0 5%;
+    }
+}
+
+.diffImageMargin
+{
+    margin: 10px 20px 10px 20px;
+}
+
+.scoreText
+{
+    color: white;
+    font-size: 23px;
+}
+
+.buttonMargin
+{
+    margin-left: 20px;
+}
+
+.relativePosition
+{
+    position: relative;
+}
+
+.winMargin
+{
+    margin-top: 10px;
+}
+
+/* Общие стили */
+
+.centerContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullSizeContainer
+{
+    width: 100%;
+    height: 100%;
+}
+
+.flexContainer
+{
+    display: flex;
+}

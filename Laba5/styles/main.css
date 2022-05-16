@@ -1,0 +1,127 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-image: url("../images/bgMain.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.imageContainer
+{
+    position: relative;
+    flex-grow: 1;
+}
+
+.imageContainer > img
+{
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+}
+
+.centerContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.linerCenterContainer
+{
+    width: 100%;
+}
+
+.centerTextContainer
+{
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+.logoCenterTextContainer
+{
+    margin-left: 10px;
+    width: 80px;
+}
+
+.welcomeMainText
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeMainText > h1
+{
+    color: white;
+    font-size: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.textUnderWelcomeText
+{
+    margin: 0px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: JetBrains Sans,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+}
+
+@media(max-width: 378px)
+{
+    .welcomeMainText > h1
+    {
+        color: white;
+        font-family: JetBrains Sans,Helvetica,Arial,sans-serif;
+        font-size: 28px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .textUnderWelcomeText
+    {
+        margin: 0px;
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+        font-family: JetBrains Sans,Helvetica,Arial,sans-serif;
+        font-size: 20px;
+    }
+}
+
+.centerButtonContainer
+{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mainButton
+{
+    padding: .5em 2em;
+}
+
+.buttonText
+{
+    color: white;
+    font-size: 20px;
+}

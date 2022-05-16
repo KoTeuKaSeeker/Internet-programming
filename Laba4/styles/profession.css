@@ -1,0 +1,68 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-image: url("../images/bgProfession.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.programmerText
+{
+    color: white;
+    font-size: 50px;
+    margin: 30px 0 0 0;
+}
+
+.myProfessionText
+{
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.textContainerLine
+{
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+}
+
+.textBorderedContainer
+{
+    width: auto;
+    margin: 0 300px 0 300px
+}
+
+.lineContainer
+{
+    margin: 30px 0;
+}
+
+@media(max-width: 916px)
+{
+    .textBorderedContainer
+    {
+        width: auto;
+        margin: 0 10px 0 10px
+    }
+}
+
+@media(max-width: 334px)
+{
+    .programmerText
+    {
+        color: white;
+        font-size: 40px;
+        margin: 30px 0 0 0;
+    }
+}

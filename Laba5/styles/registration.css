@@ -1,0 +1,47 @@
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contentContainer
+{
+    flex-grow: 1;
+}
+
+.buttonPadding
+{
+    padding: 5px 5px;
+}
+
+.elementMargin
+{
+    margin-top: 10px;
+}
+
+.textRegistration
+{
+    color: white;
+    font-size: 22px;
+}
+
+.inLineContainer {
+    display: flex;
+}
+
+/*Общие стили*/
+
+.centerContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText
+{
+    color: white;
+    font-size: 30px;
+}

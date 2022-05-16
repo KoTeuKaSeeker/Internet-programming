@@ -1,0 +1,18 @@
+.textContainerBackground
+{
+    background-color: rgba(25, 25, 25, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.headerFont
+{
+    color: #266DB4;
+    font-size: 20px;
+}
+
+.subFont
+{
+    color: white;
+    font-size: 14px;
+}

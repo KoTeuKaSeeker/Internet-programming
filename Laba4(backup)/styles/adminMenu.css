@@ -1,0 +1,50 @@
+body
+{
+    background-image: url("../images/bgAdminMenu.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+-webkit-scrollbar
+{
+
+}
+
+.avatarImage
+{
+    height: 50px;
+}
+
+.editIcon
+{
+    height: 20px;
+}
+
+.table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell
+{
+    border: 1px solid white;
+    height: 100px;
+}
+
+.tableCellContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+.tableScrollContainer
+{
+    overflow-x: scroll;
+    margin: 20px;
+}
+
+/* Общие стили */

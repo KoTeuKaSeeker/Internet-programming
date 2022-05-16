@@ -1,0 +1,48 @@
+body
+{
+    background-image: url("../images/bgProjects.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerAboutProjects
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.contentContainer
+{
+    --widthContainer: 300px;
+    width: var(--widthContainer);
+    height: 350px;
+    margin-top: 15px;
+}
+
+.imageContent
+{
+   width: var(--widthContainer);
+}
+
+.projectContainers
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 316px)
+{
+    .contentContainer
+    {
+        --widthContainer: 230px;
+        width: var(--widthContainer);
+        height: 350px;
+        margin-top: 15px;
+    }
+
+}

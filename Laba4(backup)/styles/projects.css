@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/bgProjects.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contentContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.textContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px
+}
+
+.projectsHeaderText
+{
+    color: white;
+    font-size: 30px;
+}
+
+.projectsDescriptionText
+{
+    color: white;
+    font-size: 15px;
+}
+
+.gallery
+{
+    display: flex;
+    align-items: center;
+}
+
+.arrow
+{
+    width: 100px;
+    margin: 0px 10px 0px 10px;
+}
+
+.arrow:hover
+{
+    width: 120px;
+}
+
+.galleryImage
+{
+    width: 500px;
+}
+
+.imageMatrix
+{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+.imageElement
+{
+    width: 100px;
+    height: 100px;
+}

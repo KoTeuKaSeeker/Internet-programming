@@ -1,0 +1,74 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-image: url("../images/bgAbout1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contentContainer
+{
+
+}
+
+.leftFlex
+{
+    align-self: start;
+}
+
+.rightFlex
+{
+    align-self: end;
+}
+
+.linesContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.textContainer
+{
+    margin: 20px 100px;
+    width: 450px;
+    height: 150px;
+}
+
+@media(max-width: 650px)
+{
+    .leftFlex
+    {
+        align-self: center;
+    }
+
+    .rightFlex
+    {
+        align-self: center;
+    }
+
+    .textContainer
+    {
+        margin: 20px 50px;
+        width: auto;
+        height: 200px;
+    }
+}

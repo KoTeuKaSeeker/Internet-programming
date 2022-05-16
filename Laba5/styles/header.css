@@ -1,0 +1,90 @@
+body
+{
+    margin: 0px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343434;
+}
+
+.logo
+{
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navigation > ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.navigation > ul > *
+{
+    padding: 10px;
+}
+
+.headerButton
+{
+    background-color: transparent;
+    border: transparent;
+}
+
+.headerButton:hover
+{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+.navigationFont
+{
+    font-size: 20px;
+    color: #BABBBC;
+}
+
+.navigationIcon
+{
+    width: 30px;
+    height: 30px;
+    fill: #BABBBC;
+}
+
+.avatarImage
+{
+    height: 40px;
+}
+
+.quitText
+{
+    color: #ff8585;
+}
+
+.adminMenuText
+{
+    color: #9fff9e;
+}
+
+@media(max-width: 299px)
+{
+    .header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: #343434;
+    }
+}

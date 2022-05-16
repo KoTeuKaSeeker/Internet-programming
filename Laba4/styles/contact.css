@@ -1,0 +1,58 @@
+body
+{
+    background-image: url("../images/bgContact.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contentContainer
+{
+    flex-grow: 1;
+}
+
+.verticalCenterContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.horizontalCenterContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconImage
+{
+    height: 80px;
+}
+
+.contactContainer
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.refText
+{
+    color: white;
+    font-size: 35px;
+}
+
+.refLeftMargin
+{
+    margin-left: 15px;
+}

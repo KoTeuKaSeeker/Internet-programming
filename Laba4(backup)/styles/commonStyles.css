@@ -1,0 +1,60 @@
+.textContainerBackground
+{
+    background-color: rgba(25, 25, 25, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.headerFont
+{
+    color: #266DB4;
+    font-size: 20px;
+}
+
+.subFont
+{
+    color: white;
+    font-size: 14px;
+}
+
+/*
+.mainButton
+{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    background-color: rgba(25, 25, 25, 0.7);
+    font-size: 20px;
+}
+*/
+
+.borderedContainer
+{
+    border: 2px solid white;
+    border-radius: 1px;
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+.button
+{
+    display: inline-block;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.button:hover
+{
+    background: rgba(255,255,255,.2);
+}
+.button:active
+{
+    background: rgba(100, 100, 100,.2);
+}
